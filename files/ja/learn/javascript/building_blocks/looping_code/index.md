@@ -440,7 +440,7 @@ const input = document.querySelector('input');
 const btn = document.querySelector('button');
 
 btn.addEventListener('click', () => {
-  para.textContent = 'Output: ';
+  para.textContent = '出力: ';
   const num = input.value;
   input.value = '';
   input.focus();
@@ -824,7 +824,7 @@ reset.addEventListener('click', function() {
 solution.addEventListener('click', function() {
   if(solution.value === "解答を表示") {
     textarea.value = solutionEntry;
-    solution.value = 'Hide solution';
+    solution.value = '解答を隠す';
   } else {
     textarea.value = userEntry;
     solution.value = "解答を表示";
@@ -969,6 +969,6 @@ do {
 - [for...of のリファレンス](/ja/docs/Web/JavaScript/Reference/Statements/for...of)
 - [while](/ja/docs/Web/JavaScript/Reference/Statements/while) と [do...while](/ja/docs/Web/JavaScript/Reference/Statements/do...while) リファレンス
 - [break](/ja/docs/Web/JavaScript/Reference/Statements/break) と [continue](/ja/docs/Web/JavaScript/Reference/Statements/continue) リファレンス
-- [What’s the Best Way to Write a JavaScript For Loop?](https://www.impressivewebs.com/javascript-for-loop/) — 高度なループのベストプラクティス
+- [What's the Best Way to Write a JavaScript For Loop?](https://www.impressivewebs.com/javascript-for-loop/) — 高度なループのベストプラクティス
 
 {{PreviousMenuNext("Learn/JavaScript/Building_blocks/conditionals","Learn/JavaScript/Building_blocks/Functions", "Learn/JavaScript/Building_blocks")}}

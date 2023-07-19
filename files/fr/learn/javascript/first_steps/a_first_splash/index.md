@@ -160,7 +160,7 @@ Dans cet article, nous allons vous montrer comment construire le jeu simple que 
 </html>
 ```
 
-{{ EmbedLiveSample('Exemple_—_Jeu_Guess_the_number', '100%', 320, "", "", "hide-codepen-jsfiddle") }}
+{{ EmbedLiveSample('', '100%', 320, "", "", "hide-codepen-jsfiddle") }}
 
 Essayez de jouer et familiarisez-vous avec ce jeu avant de continuer.
 
@@ -665,7 +665,7 @@ guesses.style.boxShadow = '3px 3px 6px black';
 
 Chaque élément d'une page possède une propriété de `style` , qui contient elle-même un objet dont les propriétés contiennent tous les styles CSS en ligne appliqués à cet élément. Cela nous permet de définir dynamiquement de nouveaux styles CSS sur des éléments en utilisant JavaScript.
 
-## C'est fini pour le moment...
+## C'est fini pour le moment
 
 Vous voilà parvenu au bout de cet exemple, bravo ! Essayez votre code enfin complété ou [jouez avec notre version finale ici](https://mdn.github.io/learning-area/javascript/introduction-to-js-1/first-splash/number-guessing-game.html). Si vous ne parvenez pas à faire fonctionner l'exemple, vérifiez-le par rapport [au code source.](https://github.com/mdn/learning-area/blob/master/javascript/introduction-to-js-1/first-splash/number-guessing-game.html)
 

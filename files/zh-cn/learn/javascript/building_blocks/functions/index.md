@@ -84,7 +84,7 @@ JavaScript 有许多内置的函数，可以让您做很多有用的事情，而
 
 ## 自定义函数
 
-您在过去的课程中还看到很多定制功能 - 在代码中定义的功能，而不是在浏览器中。每当您看到一个自定义名称后面都带有括号，那么您使用的是自定义函数。在我们的[循环文章中](/zh-CN/docs/Learn/JavaScript/Building_blocks/Looping_code)的[random-canvas-circles.html](http://mdn.github.io/learning-area/javascript/building-blocks/loops/random-canvas-circles.html)示例（另见完整的[源代码](https://github.com/mdn/learning-area/blob/master/javascript/building-blocks/loops/random-canvas-circles.html)）中，我们包括一个如下所示的自定义函数：`draw()`
+您在过去的课程中还看到很多定制功能 - 在代码中定义的功能，而不是在浏览器中。每当您看到一个自定义名称后面都带有括号，那么您使用的是自定义函数。在我们的[循环文章中](/zh-CN/docs/Learn/JavaScript/Building_blocks/Looping_code)的[random-canvas-circles.html](http://mdn.github.io/learning-area/javascript/building-blocks/loops/random-canvas-circles.html)示例（另见完整的[源代码](https://github.com/mdn/learning-area/blob/main/javascript/building-blocks/loops/random-canvas-circles.html)）中，我们包括一个如下所示的自定义函数：`draw()`
 
 ```js
 function draw() {
@@ -276,7 +276,7 @@ function greeting() {
 
 这两个函数都使用 `greeting()` 形式调用，但是你只能访问到 first.js 文件的`greeting()`函数（第二个文件被忽视了）。另外，第二次尝试使用 `let` 关键字定义 `name` 变量导致了一个错误。
 
-> **备注：** 您可以参考这个例子 [running live on GitHub](http://mdn.github.io/learning-area/javascript/building-blocks/functions/conflict.html) (查看完整 [源代码](https://github.com/mdn/learning-area/tree/master/javascript/building-blocks/functions)).
+> **备注：** 你可以[在 GitHub 上参考运行的实例](http://mdn.github.io/learning-area/javascript/building-blocks/functions/conflict.html) (查看完整[源代码](https://github.com/mdn/learning-area/tree/main/javascript/building-blocks/functions)）。
 
 将代码锁定在函数中的部分避免了这样的问题，并被认为是最佳实践。
 
@@ -290,7 +290,7 @@ function greeting() {
 
 我们来看一个真正的例子来展示范围
 
-1. 首先，制作我们的[function-scope.html](https://github.com/mdn/learning-area/blob/master/javascript/building-blocks/functions/function-scope.html)示例的本地副本。它包含两个函数`a()`和`b()`，和三个变量—— `x`，`y`和`z`——其中两个在函数中被定义，另一个被定义在全局作用域内。它还包含一个名为`output()`的函数，它接收一个参数，并将其输出到页面的一个段落中。
+1. 首先，制作我们的[function-scope.html](https://github.com/mdn/learning-area/blob/main/javascript/building-blocks/functions/function-scope.html)示例的本地副本。它包含两个函数`a()`和`b()`，和三个变量—— `x`，`y`和`z`——其中两个在函数中被定义，另一个被定义在全局作用域内。它还包含一个名为`output()`的函数，它接收一个参数，并将其输出到页面的一个段落中。
 2. 在浏览器和文本编辑器中打开示例。
 3. 在浏览器开发工具中打开 JavaScript 控制台。在 JavaScript 控制台中，输入以下命令：
 
@@ -432,7 +432,7 @@ function subFunction3(value) {
 }
 ```
 
-## **测试你的技能！**
+## 测试你的技能！
 
 你已经来到了本文章的结尾，但是你还能记得最重要的知识吗？你可以在离开这里找到一些更深度的测试来证实你已经记住了这些知识——查看[测试你的技能：函数](/zh-CN/docs/Learn/JavaScript/Building_blocks/Test_your_skills:_Functions)（英文）。后两章文本包含了这个测试需要的技能，所以你可能先需要阅读再尝试该测试。
 

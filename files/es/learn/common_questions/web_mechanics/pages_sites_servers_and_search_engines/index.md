@@ -31,7 +31,7 @@ En este artículo se describen varios conceptos referidos a la web: Páginas web
 
 ## Resumen
 
-Como cualquier área de conocimiento, la web viene con un montón de jerga. No te preocupes, no te abrumaremos con todo esto (tenemos un glosario por si tienes curiosidad). Sin embargo, hay un unos términos básicos que necesitas entender al principio, ya que escucharás estas expresiones todo el tiempo mientras lees. A veces es fácil de confundir estos términos, puesto que hacen referencia a funcionalidades relacionadas pero diferentes. De hecho, a veces veras estos términos mal utilizados en las noticias y en otros lugares ¡por lo que llegar mezclarlos es entendible!
+Como cualquier área de conocimiento, la web viene con un montón de jerga. No te preocupes, no te abrumaremos con todo esto (tenemos un glosario por si tienes curiosidad). Sin embargo, hay unos términos básicos que necesitas entender al principio, ya que escucharás estas expresiones todo el tiempo mientras lees. A veces es fácil de confundir estos términos, puesto que hacen referencia a funcionalidades relacionadas pero diferentes. De hecho, a veces veras estos términos mal utilizados en las noticias y en otros lugares ¡por lo que llegar a mezclarlos es entendible!
 
 Cubriremos estos términos y tecnologías con más detalle mientras exploramos más, pero estas definiciones rápidas serán un gran comienzo para ti:
 
@@ -87,7 +87,7 @@ _Página web_ y _sitio web_ son especialmente fáciles de confundir cuando un _s
 
 ### Servidor web
 
-Un _servidor web_ es una computadora que aloja uno o mas _sitios web_. “Alojar” (_hosting_) significa que todas las _páginas web_ y sus archivos soportes están disponibles en esa computadora. El _servidor web_ enviará cualquier _página web_ del _sitio web_ que aloja, al navegador de cualquier usuario, por cada solicitud del usuario.
+Un _servidor web_ es una computadora que aloja uno o mas _sitios web_. "Alojar" (_hosting_) significa que todas las _páginas web_ y sus archivos soportes están disponibles en esa computadora. El _servidor web_ enviará cualquier _página web_ del _sitio web_ que aloja, al navegador de cualquier usuario, por cada solicitud del usuario.
 
 No confundir _sito web_ y _servidor web_. Por ejemplo, la expresión "Mi sitio web no responde", en realidad significa que el _servidor web_ no responde y, por lo tanto, el _sitio web_ no está disponible. Más importante aún, dado que un servidor web puede alojar varios sitios web, la expresión _servidor web_ nunca se utiliza para designar un sitio web, pues podría causar una gran confusión. En nuestro ejemplo anterior, si dijéramos: "Mi servidor web no responde", significaría que múltiples sitios web alojados en ese servidor web no están disponibles.
 

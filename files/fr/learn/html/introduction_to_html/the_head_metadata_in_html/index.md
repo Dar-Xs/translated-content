@@ -134,7 +134,7 @@ Préciser l'auteur peut être intéressant dans certains cas : il est utile de s
 
 Définir une description qui incorpore des mots-clés relatifs au contenu de la page est utile ; votre page pourra ainsi apparaître plus haut dans la liste de recherches par pertinence créée par un moteur de recherche (ce processus se nomme [Search Engine Optimization](/fr/docs/Glossary/SEO) ou {{glossary("SEO")}} — optimisation du moteur de recherche.)
 
-### Apprentissage actif : utilisation des descriptions dans les moteurs de recherche.
+### Apprentissage actif : utilisation des descriptions dans les moteurs de recherche
 
 La description est aussi utilisée dans le résultat des moteurs de recherche. Faisons un exercice pour mieux comprendre.
 
@@ -171,7 +171,7 @@ En parcourant le web, vous trouverez d'autres types de métadonnées. Beaucoup d
 Par exemple, [Open Graph Data](https://ogp.me/) est un protocole de métadonnées que Facebook a inventé pour fournir des métadonnées plus riches pour les sites webs. Dans le code source de MDN vous trouverez ceci :
 
 ```html
-<meta property="og:image" content="https://developer.mozilla.org/static/img/opengraph-logo.png">
+<meta property="og:image" content="https://developer.mozilla.org/mdn-social-share.png">
 <meta property="og:description" content="MDN Web Docs fournit des
 informations sur les technologies web ouvertes comme HTML, CSS et les API
 utilisées pour les sites web et les applications web. On y trouve également
@@ -250,7 +250,7 @@ Ne vous préoccupez pas de la mise en œuvre de tous ces types d'icônes mainten
 2. Ouvrez le fichier HTML à la fois dans votre navigateur et votre éditeur de texte.
 3. En suivant les informations fournies ci-dessus, ajoutez les éléments {{htmlelement("link")}} et {{htmlelement("script")}} à votre HTML, afin que les CSS et le JavaScript soient appliqués au HTML.
 
-Si a été fait correctement, après avoir enregistré le HTML, puis actualisé la page, vous verrez que les choses ont changé :
+Si ç'a été fait correctement, après avoir enregistré le HTML, puis actualisé la page, vous verrez que les choses ont changé :
 
 ![Exemple montrant une page sur laquelle on a appliqué du CSS et du JavaScript. Le CSS a rendu la page verte, alors que le JavaScript a ajouté une liste dynamique à la page.](js-css-exemple.png)
 
